@@ -1,9 +1,10 @@
 import { server } from '../config'
 import ArticleList from '../components/ArticleList'
+import styles from '../styles/Layout.module.css'
 
 export default function Home({ articles }) {
   return (
-    <div>
+    <div className={styles.home}>
       <ArticleList articles={articles} />
     </div>
   )

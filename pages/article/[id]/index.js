@@ -2,6 +2,7 @@ import { server } from '../../../config'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Meta from '../../../components/Meta'
+import styles from "../../../styles/Article.module.css"
 
 const article = ({ article }) => {
   // const router = useRouter()
@@ -10,10 +11,22 @@ const article = ({ article }) => {
   return (
     <>
       <Meta title={article.title} description={article.excerpt} />
-      <h1>{article.title}</h1>
-      <p>{article.body}</p>
-      <br />
-      <Link href='/'>Go Back</Link>
+    
+      <div class={styles.overview}>
+         <div class="articulos-individual-imagen">
+             <img
+               src="./assets/vercel.svg"
+              
+               alt=""
+             />
+         </div>
+         <div class="articulo-individual-content-titulo">
+         <h1>{article.title}</h1>
+         <p>{article.body}</p>
+         </div>
+         
+        <Link href='/' class ="button">Go Back</Link> 
+      </div>   
     </>
   )
 }

@@ -14,3 +14,48 @@ a {
 * {
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+/* //fonts
+$font-primary: 'Roboto';
+$font-secondary: 'Oswald';
+$font-size-s: 12px;
+$font-size-m: 16px;
+$font-size-l: 24px; */
+
+/* //colores
+$color-font: #ece9e3;
+$color-primary: #ffa500;
+$color-black: #002e63; */
+
+.button {
+    position: relative;
+    border: 2px solid #2ECC71;
+    background:none;
+    color: #2ECC71;
+    text-align:center;
+    justify-content: center;
+    display:flex;
+}
+
+.button:hover{
+  background:#2ECC71;
+  color: #fff;
+}   
+
+.input {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    font-size: 26px;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid #3498db;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+    color: #2c3e50;
+}
+a, h1, p{
+  font-family: 'Roboto';
+}

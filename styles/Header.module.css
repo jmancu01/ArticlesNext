@@ -1,3 +1,25 @@
+.container{
+  background-image: url(../public/Background.jpg);
+  background-position: 50% 70%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 80px 20px;
+  margin: 0px 0px;
+
+}
+.second{
+
+  background-color: #ffffff;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 20px 20px;
+  margin: 0px 0px;
+  display:inline-block; 
+  align-items: center;
+  justify-content: center;
+}
 .title a,
 .title span {
   color: #0070f3;
@@ -8,17 +30,21 @@
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  
 }
 
 .title,
 .description {
   text-align: center;
+
+  
 }
 
 .description {

@@ -1,11 +1,18 @@
 .nav {
-  height: 50px;
+  height: 70px;
   padding: 10px;
-  background: #000;
-  color: #fff;
+  background-color: transparent;
+  color: black;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: flex-start;
+}
+
+.right{
+  box-sizing: border-box;
+  display: flex;
+  background-color: transparent;
+  height: 100%;
 }
 
 .nav ul {

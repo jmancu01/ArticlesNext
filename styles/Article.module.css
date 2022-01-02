@@ -6,7 +6,11 @@
   max-width: 800px;
   margin-top: 3rem;
 }
+.overview {
 
+  padding: 20px 20px;
+  margin: 0px 100px 0px;
+}
 .card {
   margin: 1rem;
   flex-basis: 45%;

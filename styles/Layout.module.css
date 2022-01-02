@@ -1,18 +1,22 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+
 }
 
 .main {
-  padding: 5rem 0;
   flex: 1;
-  display: flex;
+  display: inline-block;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   font-size: 1.25rem;
+}
+.home{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
